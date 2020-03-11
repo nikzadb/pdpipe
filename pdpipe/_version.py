@@ -42,8 +42,8 @@ def get_config():
     cfg.VCS = "git"
     cfg.style = "pep440"
     cfg.tag_prefix = "v"
-    cfg.parentdir_prefix = "pandlines-"
-    cfg.versionfile_source = "pandlines/_version.py"
+    cfg.parentdir_prefix = "pdpipe-"
+    cfg.versionfile_source = "pdpipe/_version.py"
     cfg.verbose = False
     return cfg
 
@@ -385,7 +385,7 @@ def render_pep440_old(pieces):
 
     The ".dev0" means dirty.
 
-    Eexceptions:
+    Exceptions:
     1: no tags. 0.postDISTANCE[.dev0]
     """
     if pieces["closest-tag"]:

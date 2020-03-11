@@ -45,6 +45,7 @@ nosetests.xml
 coverage.xml
 *,cover
 .hypothesis/
+.pytest_cache/
 
 # Translations
 *.mo
@@ -89,3 +90,17 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# ctags
+tags
+.vscode
+
+# vim swap files
+*.swp
+
+# annotying mac files!
+.DS_Store
+
+# don't like pipfiles
+Pipfile
+Pipfile.lock
